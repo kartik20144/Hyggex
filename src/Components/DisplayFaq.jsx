@@ -9,7 +9,7 @@ const DisplayFaq = () => {
       FAQ
     </div>
           <Faq
-            question="Can education flashcards be used for all aage groups?"
+            question="Can education flashcards be used for all age groups?"
             answer="Yes, education flashcards can be tailored to different age groups and learning levels. There are flashcards for preschoolers, elementary school students, high school students, and even for college-level and adult learners."
           />
           <Faq

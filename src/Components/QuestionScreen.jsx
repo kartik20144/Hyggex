@@ -1,15 +1,20 @@
 import React, { useState } from "react";
-import mask from "../mask.png";
 import a from "../1.jpg";
 import b from "../2.jpg";
 import c from "../3.jpg";
 import d from "../4.jpg";
+import "../App.css"
 
 const QuestionScreen = () => {
   const [activeNavItem, setActiveNavItem] = useState(0);
 
   const handleNavItemClick = (index) => {
     setActiveNavItem(index);
+  };
+  const [flipped, setFlipped] = useState(false);
+
+  const handleClick = () => {
+    setFlipped(!flipped);
   };
 
   const navItems = [
@@ -45,7 +50,17 @@ const QuestionScreen = () => {
         </div>
       </nav>
 
-      <img className="w-full" src={mask} alt="" />
+
+<div className="w-full flippable-container" onClick={handleClick}>
+      <div className={` w-full flippable-box ${flipped ? "flipped" : ""}`}>
+        <div className="w-full front">
+          <div className="w-full blue-box">9 + 6 + 7x - 2x - 3</div>
+        </div>
+        <div className="w-full back">
+          <div className="w-full blue-box">5x + 12</div>
+        </div>
+      </div>
+    </div>
 
       <div className="max-w-6xl mx-auto px-4 flex  justify-between h-16 md:flex items-center space-x-8">
         <div>
