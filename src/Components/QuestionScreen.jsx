@@ -4,6 +4,8 @@ import b from "../2.jpg";
 import c from "../3.jpg";
 import d from "../4.jpg";
 import "../App.css"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLightbulb, faVolumeHigh } from "@fortawesome/free-solid-svg-icons";
 
 const QuestionScreen = () => {
   const [activeNavItem, setActiveNavItem] = useState(0);
@@ -50,14 +52,50 @@ const QuestionScreen = () => {
         </div>
       </nav>
 
-
+{/* 
 <div className="w-full flippable-container cursor-pointer" onClick={handleClick}>
       <div className={` w-full flippable-box ${flipped ? "flipped" : ""}`}>
         <div className="w-full front">
+<div className="flex justify-between">
+
+        <button className="top-left-button">Left</button>
+          <button className="top-right-button ">Right</button>
+</div>
           <div className="w-full blue-box">9 + 6 + 7x - 2x - 3</div>
         </div>
         <div className="w-full back">
+        <button className="top-left-button">Left</button>
+          <button className="top-right-button">Right</button>
           <div className="w-full blue-box">5x + 12</div>
+        </div>
+      </div>
+    </div> */}
+
+
+<div className="w-full flippable-container" onClick={handleClick}>
+      <div className={`w-full flippable-box ${flipped ? "flipped" : ""}`}>
+        <div className="w-full front">
+          <div className=" w-full blue-box">
+            <button className="top-left-button ">
+            <FontAwesomeIcon icon={faLightbulb} />
+            </button>
+            9 + 6 + 7x - 2x - 3
+            <button className="top-right-button">
+            <FontAwesomeIcon icon={faVolumeHigh} />
+            </button>
+          </div>
+        </div>
+        <div className="w-full back">
+          <div className="w-full blue-box">
+            <button className="top-left-button">
+            <FontAwesomeIcon icon={faLightbulb} />
+            </button>
+            5x + 12
+            <button className="top-right-button">
+            <FontAwesomeIcon icon={faVolumeHigh} />
+
+            </button>
+          </div>
         </div>
       </div>
     </div>
