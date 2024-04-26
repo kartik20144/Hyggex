@@ -1,9 +1,42 @@
-# Getting Started with Create React App
+Hyggex Digital Services Private Limited
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+It is the repositiry for the assignment.
 
-## Available Scripts
+This website is created using ReactjS and Tailwind CSS.
 
+The homepage looks like:
+![26 04 2024_18 26 43_REC](https://github.com/kartik20144/hyggex/assets/122911965/c1929de3-71e5-47e5-963a-8b5ee184d2d8)
+![26 04 2024_18 27 04_REC](https://github.com/kartik20144/hyggex/assets/122911965/68c5deac-cfd0-4f59-908e-f2f5b0145477)
+
+We have nice navbar which contains logo of the company and other links and login button
+![26 04 2024_18 30 16_REC](https://github.com/kartik20144/hyggex/assets/122911965/c4d4b7a8-7550-4374-847d-15b20ed8906d)
+
+then we have the path  and the topic name:
+![26 04 2024_18 30 59_REC](https://github.com/kartik20144/hyggex/assets/122911965/be0e49fe-54ba-4a32-99b8-a2c9ceee60f1)
+
+then we have the flashcard with little navbar at top with other links:
+![26 04 2024_18 31 40_REC](https://github.com/kartik20144/hyggex/assets/122911965/8a17558e-aed8-486a-b38c-57d7185b240d)
+
+Then we have the flashcard itself with nice gradient to bottom left:
+![26 04 2024_18 32 32_REC](https://github.com/kartik20144/hyggex/assets/122911965/3e9a5447-03ad-42cd-b94e-67c9a63afbd6)
+
+The flashcard flips and shows answer when clicked . We can click on it to get back to question:
+![26 04 2024_18 33 32_REC](https://github.com/kartik20144/hyggex/assets/122911965/2877dddd-eeb4-4c54-80a1-18fe0ed1489f)
+
+
+Then we have nice logo and option to add new flashcard:
+![26 04 2024_18 34 19_REC](https://github.com/kartik20144/hyggex/assets/122911965/28faa2e0-723b-4397-beb5-bc8d2b8094c6)
+
+
+The FAQs can be opened and closed:
+![26 04 2024_18 28 13_REC](https://github.com/kartik20144/hyggex/assets/122911965/5f7553b1-d848-43d1-aec9-7b5804dc30fa)
+
+Responsiveness:
+The website is fully responsive:
+![26 04 2024_18 35 46_REC](https://github.com/kartik20144/hyggex/assets/122911965/f95fb785-c41d-40c0-8cf6-f1f8f723b993)
+![26 04 2024_18 36 08_REC](https://github.com/kartik20144/hyggex/assets/122911965/5f81c649-82db-48cf-a0bb-2f93e48946a4)
+
+Hope it helps. Looking forward to what lies aheal. Thank You.
 In the project directory, you can run:
 
 ### `npm start`
