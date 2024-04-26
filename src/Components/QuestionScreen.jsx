@@ -72,13 +72,13 @@ const QuestionScreen = () => {
     </div> */}
 
 
-<div className="w-full flippable-container" onClick={handleClick}>
+<div className="w-full flippable-container cursor-pointer" onClick={handleClick}>
       <div className={`w-full flippable-box ${flipped ? "flipped" : ""}`}>
         <div className="w-full front">
           <div className=" w-full blue-box">
             <button className="top-left-button ">
             <FontAwesomeIcon icon={faLightbulb} />
-            </button>
+            </button >
             9 + 6 + 7x - 2x - 3
             <button className="top-right-button">
             <FontAwesomeIcon icon={faVolumeHigh} />
