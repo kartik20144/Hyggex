@@ -51,7 +51,7 @@ const QuestionScreen = () => {
       </nav>
 
 
-<div className="w-full flippable-container" onClick={handleClick}>
+<div className="w-full flippable-container cursor-pointer" onClick={handleClick}>
       <div className={` w-full flippable-box ${flipped ? "flipped" : ""}`}>
         <div className="w-full front">
           <div className="w-full blue-box">9 + 6 + 7x - 2x - 3</div>
