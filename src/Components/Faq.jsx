@@ -8,7 +8,7 @@ const Faq = ({ question, answer }) => {
   const ansClass = `${expandClass} p-4`;
 
   return (
-    <div className="max-w-4xl ml-32 border border-blue-500 rounded-lg overflow-hidden my-5">
+    <div className="max-w-4xl ml-32 mr-32 border border-blue-500 rounded-lg overflow-hidden my-5">
       <div className="shadow rounded border border-gray-100 border-t-0">
         <div className="p-4 text-xl relative font-medium">
           <div className="w-5/6">{question}</div>

@@ -3,7 +3,7 @@ import a from "../1.jpg";
 import b from "../2.jpg";
 import c from "../3.jpg";
 import d from "../4.jpg";
-import "../App.css"
+import "../App.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLightbulb, faVolumeHigh } from "@fortawesome/free-solid-svg-icons";
 
@@ -52,7 +52,7 @@ const QuestionScreen = () => {
         </div>
       </nav>
 
-{/* 
+      {/* 
 <div className="w-full flippable-container cursor-pointer" onClick={handleClick}>
       <div className={` w-full flippable-box ${flipped ? "flipped" : ""}`}>
         <div className="w-full front">
@@ -71,34 +71,36 @@ const QuestionScreen = () => {
       </div>
     </div> */}
 
-
-<div className="w-full flippable-container cursor-pointer" onClick={handleClick}>
-      <div className={`w-full flippable-box ${flipped ? "flipped" : ""}`}>
-        <div className="w-full front">
-          <div className=" w-full blue-box">
-            <button className="top-left-button ">
-            <FontAwesomeIcon icon={faLightbulb} />
-            </button >
-            9 + 6 + 7x - 2x - 3
-            <button className="top-right-button">
-            <FontAwesomeIcon icon={faVolumeHigh} />
-            </button>
+      <div
+        className="w-full flippable-container cursor-pointer"
+        onClick={handleClick}
+      >
+        <div className={`w-full flippable-box ${flipped ? "flipped" : ""}`}>
+          <div className="w-full front">
+            <div className=" w-full blue-box">
+              <button className="top-left-button ">
+                <FontAwesomeIcon icon={faLightbulb} />
+              </button>
+              <span className="text-4xl">9 + 6 + 7x - 2x - 3</span>
+              <button className="top-right-button">
+                <FontAwesomeIcon icon={faVolumeHigh} />
+              </button>
+            </div>
           </div>
-        </div>
-        <div className="w-full back">
-          <div className="w-full blue-box">
-            <button className="top-left-button">
-            <FontAwesomeIcon icon={faLightbulb} />
-            </button>
-            5x + 12
-            <button className="top-right-button">
-            <FontAwesomeIcon icon={faVolumeHigh} />
+          <div className="w-full back">
+            <div className="w-full blue-box">
+              <button className="top-left-button">
+                <FontAwesomeIcon icon={faLightbulb} />
+              </button>
+              <span className="text-4xl">5x + 12</span>
 
-            </button>
+              <button className="top-right-button">
+                <FontAwesomeIcon icon={faVolumeHigh} />
+              </button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
       <div className="max-w-6xl mx-auto px-4 flex  justify-between h-16 md:flex items-center space-x-8">
         <div>
